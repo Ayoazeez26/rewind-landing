@@ -16,7 +16,10 @@ export default {
         <a href="#footer" data-type="button" class="btn bg-secondary rounded-full text-black px-20 font-semibold py-4 btn-primary">
           Join waiting List
         </a>
-        <img src="@/assets/images/scroll.png" alt="scroll image" class="mt-28 mb-8">
+        <a href="#why" class="mt-28 mb-8">
+          <div id="why" />
+          <img src="@/assets/images/scroll.png" alt="scroll image">
+        </a>
       </div>
     </div>
   </section>

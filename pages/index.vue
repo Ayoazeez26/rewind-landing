@@ -2,6 +2,7 @@
   <div>
     <Hero />
     <Why />
+    <How />
   </div>
 </template>
 

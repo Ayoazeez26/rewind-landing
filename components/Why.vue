@@ -49,7 +49,7 @@ export default {
         <h2 class="head header__title text-primary text-3xl lg:text-4xl font-bold mb-4">
           Why Choose <span class="text-secondary">Rewind</span>?
         </h2>
-        <p class="sf header__subtitle text-white font-light tracking-wide text-opacity-80 text-xl md:text-2xl mt-5 mb-12">
+        <p class="sf why__subtitle font-light tracking-wide text-center text-opacity-80 text-lg mb-10">
           Rewind gives businesses the credit they need to issue instant refunds to customers. Here are some reasons why you should choose Rewind
         </p>
         <div class="blogs flex space-y-6 sm:space-y-0 sm:space-x-6 flex-wrap mb-16">
@@ -65,7 +65,7 @@ export default {
             </p>
           </div>
         </div>
-        <div class="mt-10 w-5/6 h-px bg-primary mx-auto" />
+        <div class="mt-10 w-2/3 h-px bg-primary mx-auto" />
       </div>
     </div>
   </section>
@@ -80,13 +80,16 @@ export default {
     &-icon {
       box-shadow: 0px 8px 12px rgba(71, 61, 46, 0.1);
     }
+    &:hover {
+      box-shadow: 0px 4px 15px rgba(137, 137, 136, 0.15);
+    }
     .high-tracking {
       line-height: 180%;
     }
   }
   &__subtitle {
     width: 100%;
-    max-width: 644px;
+    max-width: 570px;
   }
   &-btn {
     border-radius: 53px;
