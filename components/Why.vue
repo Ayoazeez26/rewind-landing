@@ -52,8 +52,8 @@ export default {
         <p class="sf why__subtitle font-light tracking-wide text-center text-opacity-80 text-lg mb-10">
           Rewind gives businesses the credit they need to issue instant refunds to customers. Here are some reasons why you should choose Rewind
         </p>
-        <div class="blogs flex space-y-6 sm:space-y-0 sm:space-x-6 flex-wrap mb-16">
-          <div v-for="(blog, index) in blogs" :key="index" class="blog p-8">
+        <div class="blogs flex flex-wrap mb-16">
+          <div v-for="(blog, index) in blogs" :key="index" class="blog ml-6 mb-6 p-8">
             <div class="blog-icon bg-secondary rounded-xl flex items-center justify-center w-12 h-12">
               <img :src="getImage(blog.image)" :alt="blog.image">
             </div>

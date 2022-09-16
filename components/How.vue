@@ -12,14 +12,50 @@ export default {}
         <p class="sf why__subtitle font-light tracking-wide text-center text-opacity-80 text-lg mb-10">
           Get started with Rewind in these easy steps
         </p>
-        <div class="steps flex flex-col">
-          <div class="flex justify-between">
-            <div class="desc flex flex-col">
-              <h3 class="font-semibold text-3xl">Step 1 - Create A Refund Link</h3>
-              <p class="steps-desc">After signing up your business on Rewind, create a refund link and send to your customer. Soon as your customer is done initiating the refund, you will be notified on your mail.</p>
+        <div class="steps flex flex-col w-full mt-12">
+          <div class="flex justify-between relative">
+            <div class="steps-desc flex flex-col mt-20">
+              <h3 class="font-semibold text-3xl text-black mb-6">
+                Step 1 - Create A Refund Link
+              </h3>
+              <p class="steps-desc">
+                After signing up your business on Rewind, create a refund link and send to your customer. Soon as your customer is done initiating the refund, you will be notified on your mail.
+              </p>
             </div>
             <img src="@/assets/images/refund-img.png" alt="step one image">
+            <img src="@/assets/icons/left-dir.svg" alt="left arrow" class="absolute -bottom-20 right-72">
           </div>
+          <div class="flex justify-between relative mt-20">
+            <img src="@/assets/images/confirm-img.png" alt="step one image">
+            <div class="steps-desc flex flex-col mt-32">
+              <h3 class="font-semibold text-3xl text-black mb-6">
+                Step 2 - Confirm Refund
+              </h3>
+              <p class="steps-desc">
+                Confirm the refund initiated and assign approval to a person of higher authority if need be.
+              </p>
+            </div>
+            <img src="@/assets/icons/right-dir.svg" alt="right arrow" class="absolute -bottom-20 left-72">
+          </div>
+          <div class="flex justify-between">
+            <div class="steps-desc flex flex-col mt-48">
+              <h3 class="font-semibold text-3xl text-black mb-6">
+                Step 3 - Approve Refund
+              </h3>
+              <p class="steps-desc">
+                After confirmation through the customer's reference code, Approval can now be initiated;
+              </p>
+            </div>
+            <img src="@/assets/images/success.png" alt="step one image">
+          </div>
+        </div>
+        <div class="mt-40 bg-black rounded-xl flex flex-col items-center justify-center py-20 w-full">
+          <h1 class="cta__title text-white text-center font-bold text-4xl md:text-4xl lg:leading-snug mb-6">
+            Are You Ready To Start Refunding The Easy Way?
+          </h1>
+          <a href="#footer" data-type="button" class="btn bg-secondary rounded-full text-black px-20 font-semibold py-4 btn-primary">
+            Coming this Fall
+          </a>
         </div>
       </div>
     </div>
@@ -28,19 +64,15 @@ export default {}
 
 <style lang="scss" scoped>
 .why {
-  .blog {
+  .steps {
+    &-desc {
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+  .cta__title {
     width: 100%;
-    border-radius: 20px;
-    max-width: 375px;
-    &-icon {
-      box-shadow: 0px 8px 12px rgba(71, 61, 46, 0.1);
-    }
-    &:hover {
-      box-shadow: 0px 4px 15px rgba(137, 137, 136, 0.15);
-    }
-    .high-tracking {
-      line-height: 180%;
-    }
+    max-width: 520px;
   }
   &__subtitle {
     width: 100%;
