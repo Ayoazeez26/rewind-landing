@@ -13,7 +13,7 @@ export default {
         <p class="sf header__subtitle text-white font-light tracking-wide text-opacity-80 text-xl md:text-2xl mt-5 mb-12">
           Rewind makes refunds faster and easier, to boost customer satisfaction.
         </p>
-        <a href="#footer" data-type="button" class="btn bg-secondary rounded-full text-black px-20 font-semibold py-4 btn-primary">
+        <a href="https://kpfay2j55h7.typeform.com/to/V7SXGBX8" data-type="button" class="btn bg-secondary rounded-full text-black px-20 font-semibold py-4 btn-primary">
           Join waiting List
         </a>
         <a href="#why" class="mt-28 mb-8">

@@ -25,9 +25,6 @@ export default {
     handleScroll () {
       this.scrolled = window.scrollY > 0
     },
-    goToBook () {
-      this.$router.push('http://calendly.com/')
-    },
     handleClick () {
       const links = document.querySelectorAll('.navbar-links__item a')
       for (let i = 0; i < links.length; i++) {
@@ -71,7 +68,7 @@ export default {
             </NuxtLink>
           </li>
           <li class="navbar-links__item">
-            <a href="#footer" data-type="button" class="btn bg-secondary rounded-full text-black px-16 font-semibold py-4 btn-primary">
+            <a href="https://splish.notion.site/REWIND-Helping-businesses-refund-customers-in-minutes-d8455b8301de4b78ad4fbe50da62e4d7" data-type="button" class="btn bg-secondary rounded-full text-black px-16 font-semibold py-4 btn-primary" target="_blank">
               Learn More
             </a>
           </li>
