@@ -6,7 +6,7 @@ export default {
 <template>
   <section class="w-full h-screen bg-black mb-5">
     <div class="container-gravy h-full">
-      <div id="hero" class="header h-full relative flex flex-col justify-end items-center text-center rounded-lg pt-12 md:pt-44">
+      <div id="hero" class="header h-full relative flex flex-col justify-end items-center text-center rounded-lg md:pt-44">
         <h1 class="header__title text-white font-bold text-4xl md:text-6xl lg:text-7xl lg:leading-snug">
           Refund Your Customers In <span class="text-secondary">Minutes</span>
         </h1>
@@ -45,7 +45,7 @@ export default {
     }
   }
   @media screen and (max-width: 640px) {
-    margin-top: 80px;
+    margin-top: 0;
     margin-left: 0;
     margin-right: 0;
   }

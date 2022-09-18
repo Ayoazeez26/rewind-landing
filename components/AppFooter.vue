@@ -5,11 +5,11 @@ export default {
 
 <template>
   <footer id="footer" class="bg-black mx-auto mt-5">
-    <div class="container-gravy flex justify-between items-center footer relative mx-auto rounded-lg px-10 py-7">
+    <div class="container-gravy flex flex-col-reverse md:flex-row justify-between md:items-center footer relative mx-auto rounded-lg px-10 py-7">
       <p class="text-xs copy text-white">
         © 2022 Rewind Inc. All rights reserved.
       </p>
-      <div class="flex justify-between items-center">
+      <div class="flex justify-between items-center max-w-min">
         <a href="https://www.facebook.com" target="_blank" class="item w-10 h-10 flex items-center justify-center">
           <img src="@/assets/icons/facebook.svg" alt="Facebook Icon" class="">
         </a>

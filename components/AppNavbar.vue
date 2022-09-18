@@ -38,7 +38,7 @@ export default {
 </script>
 <template>
   <nav class="app-nav" :class="scrolled ? 'navbar-scroll' : ''">
-    <div class="navbar flex bg-transparent py-4">
+    <div class="navbar flex bg-black md:bg-transparent py-4 px-4 md:px-0">
       <div class="navbar-left flex justify-between align-middle items-center w-full">
         <NuxtLink to="/" class="navbar__logo">
           <img class="w-20 sm:w-40" src="@/assets/icons/logo.svg" alt="Rewind logo">
@@ -58,12 +58,12 @@ export default {
             <img src="@/assets/icons/close.svg" alt="close icon">
           </button>
           <li class="navbar-links__item">
-            <NuxtLink to="/#hero">
+            <NuxtLink to="/#why">
               Why Rewind?
             </NuxtLink>
           </li>
           <li class="navbar-links__item">
-            <NuxtLink to="/#partners">
+            <NuxtLink to="/#how">
               How it works
             </NuxtLink>
           </li>
@@ -148,7 +148,7 @@ export default {
       right: 0;
       width: 500px;
       max-width: 100vw;
-      background-color: #FFF;
+      background-color: black;
       z-index: 100;
       &__toggle {
         display: none;
@@ -184,7 +184,7 @@ export default {
     border: none;
 
     div {
-      background-color: $black;
+      background-color: white;
       height: 3px;
       border-radius: 2px;
       margin: 4px;

@@ -43,7 +43,7 @@ export default {
 </script>
 
 <template>
-  <section class="why mt-20 mx-auto mb-20 sm:mb-40">
+  <section id="why" class="why mt-20 mx-auto mb-20 sm:mb-40">
     <div class="container-gravy">
       <div class="flex flex-col justify-center items-center">
         <h2 class="head header__title text-primary text-3xl lg:text-4xl font-bold mb-4">
@@ -53,7 +53,7 @@ export default {
           Rewind gives businesses the credit they need to issue instant refunds to customers. Here are some reasons why you should choose Rewind
         </p>
         <div class="blogs flex flex-wrap mb-16">
-          <div v-for="(blog, index) in blogs" :key="index" class="blog ml-6 mb-6 p-8">
+          <div v-for="(blog, index) in blogs" :key="index" class="blog md:ml-6 mb-6 p-8">
             <div class="blog-icon bg-secondary rounded-xl flex items-center justify-center w-12 h-12">
               <img :src="getImage(blog.image)" :alt="blog.image">
             </div>

@@ -3,7 +3,7 @@ export default {}
 </script>
 
 <template>
-  <section class="why mt-20 mx-auto mb-20 sm:mb-40">
+  <section id="how" class="why mt-20 mx-auto mb-20 sm:mb-40">
     <div class="container-gravy">
       <div class="flex flex-col justify-center items-center">
         <h2 class="head header__title text-primary text-3xl lg:text-4xl font-bold mb-4">
@@ -13,8 +13,8 @@ export default {}
           Get started with Rewind in these easy steps
         </p>
         <div class="steps flex flex-col w-full mt-12">
-          <div class="flex justify-between relative">
-            <div class="steps-desc flex flex-col mt-20">
+          <div class="flex flex-col md:flex-row justify-between relative">
+            <div class="steps-desc flex flex-col md:mt-20 mb-10 md:mb-0">
               <h3 class="font-semibold text-3xl text-black mb-6">
                 Step 1 - Create A Refund Link
               </h3>
@@ -23,11 +23,11 @@ export default {}
               </p>
             </div>
             <img src="@/assets/images/refund-img.png" alt="step one image">
-            <img src="@/assets/icons/left-dir.svg" alt="left arrow" class="absolute -bottom-20 right-72">
+            <img src="@/assets/icons/left-dir.svg" alt="left arrow" class="hidden md:block absolute -bottom-20 right-72">
           </div>
-          <div class="flex justify-between relative mt-20">
+          <div class="flex flex-col-reverse md:flex-row justify-between relative mt-10 md:mt-20">
             <img src="@/assets/images/confirm-img.png" alt="step one image">
-            <div class="steps-desc flex flex-col mt-32">
+            <div class="steps-desc flex flex-col md:mt-32">
               <h3 class="font-semibold text-3xl text-black mb-6">
                 Step 2 - Confirm Refund
               </h3>
@@ -35,10 +35,10 @@ export default {}
                 Confirm the refund initiated and assign approval to a person of higher authority if need be.
               </p>
             </div>
-            <img src="@/assets/icons/right-dir.svg" alt="right arrow" class="absolute -bottom-20 left-72">
+            <img src="@/assets/icons/right-dir.svg" alt="right arrow" class="hidden md:block absolute -bottom-20 left-72">
           </div>
-          <div class="flex justify-between">
-            <div class="steps-desc flex flex-col mt-48">
+          <div class="flex flex-col md:flex-row justify-between">
+            <div class="steps-desc flex flex-col md:mt-48">
               <h3 class="font-semibold text-3xl text-black mb-6">
                 Step 3 - Approve Refund
               </h3>
@@ -49,8 +49,8 @@ export default {}
             <img src="@/assets/images/success.png" alt="step one image">
           </div>
         </div>
-        <div class="mt-40 bg-black rounded-xl flex flex-col items-center justify-center py-20 w-full">
-          <h1 class="cta__title text-white text-center font-bold text-4xl md:text-4xl lg:leading-snug mb-6">
+        <div class="mt-20 md:mt-40 bg-black rounded-xl flex flex-col items-center justify-center py-20 w-full">
+          <h1 class="cta__title text-white text-center font-bold text-3xl md:text-4xl lg:leading-snug mb-6">
             Are You Ready To Start Refunding The Easy Way?
           </h1>
           <a href="https://splish.notion.site/REWIND-FAQ-a4b30fcde63d43cd9185ff9edb3a4c1f" data-type="button" class="btn bg-secondary rounded-full text-black px-20 font-semibold py-4 btn-primary" target="_blank">
