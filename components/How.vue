@@ -49,7 +49,7 @@ export default {}
             <img src="@/assets/images/success.png" alt="step one image">
           </div>
         </div>
-        <div class="mt-20 md:mt-40 bg-black rounded-xl flex flex-col items-center justify-center py-20 w-full">
+        <div class="mt-20 lines md:mt-40 bg-black rounded-xl flex flex-col items-center justify-center py-20 w-full">
           <h1 class="cta__title text-white text-center font-bold text-3xl md:text-4xl lg:leading-snug mb-6">
             Are You Ready To Start Refunding The Easy Way?
           </h1>
@@ -63,6 +63,12 @@ export default {}
 </template>
 
 <style lang="scss" scoped>
+.lines {
+  background-image: url('@/assets/images/cta_lines.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .why {
   .steps {
     &-desc {

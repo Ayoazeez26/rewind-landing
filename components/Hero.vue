@@ -4,7 +4,7 @@ export default {
 </script>
 
 <template>
-  <section class="w-full h-screen bg-black mb-5">
+  <section class="w-full lines h-screen bg-black mb-5">
     <div class="container-gravy h-full">
       <div id="hero" class="header h-full relative flex flex-col justify-end items-center text-center rounded-lg md:pt-44">
         <h1 class="header__title text-white font-bold text-4xl md:text-6xl lg:text-7xl lg:leading-snug">
@@ -26,6 +26,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.lines {
+  background-image: url('@/assets/images/hero_lines.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .header {
   // margin-top: 151px;
   // margin-left: -10px;

@@ -22,7 +22,7 @@ export default {
         <a href="https://instagram.com/getrewind?igshid=MTA0ZTI1NzA=" target="_blank" class="item w-10 h-10 flex items-center justify-center ml-2">
           <img src="@/assets/icons/instagram.svg" alt="Instagram Icon" class="">
         </a>
-        <a href="https://www.linkedin.com" target="_blank" class="item w-10 h-10 flex items-center justify-center ml-2">
+        <a href="https://www.linkedin.com/company/getrewind/?viewAsMember=true" target="_blank" class="item w-10 h-10 flex items-center justify-center ml-2">
           <img src="@/assets/icons/linkedin.svg" alt="LinkedIn Icon" class="">
         </a>
       </div>
