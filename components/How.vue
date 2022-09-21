@@ -54,7 +54,7 @@ export default {}
             Are You Ready To Start Refunding The Easy Way?
           </h1>
           <a href="https://splish.notion.site/REWIND-FAQ-a4b30fcde63d43cd9185ff9edb3a4c1f" data-type="button" class="btn bg-secondary rounded-full text-black px-20 font-semibold py-4 btn-primary" target="_blank">
-            Coming this Fall
+            Join Waiting List
           </a>
         </div>
       </div>
