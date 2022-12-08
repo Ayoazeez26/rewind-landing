@@ -1,4 +1,4 @@
-# rewind-landing
+# Rewind
 
 ## Build Setup
 
