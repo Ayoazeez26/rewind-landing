@@ -53,7 +53,7 @@ export default {}
           <h1 class="cta__title text-white text-center font-bold text-3xl md:text-4xl lg:leading-snug mb-6">
             Are You Ready To Start Refunding The Easy Way?
           </h1>
-          <a href="https://splish.notion.site/REWIND-FAQ-a4b30fcde63d43cd9185ff9edb3a4c1f" data-type="button" class="btn bg-secondary rounded-full text-black px-20 font-semibold py-4 btn-primary" target="_blank">
+          <a href="https://kpfay2j55h7.typeform.com/to/V7SXGBX8" data-type="button" class="btn bg-secondary rounded-full text-black px-20 font-semibold py-4 btn-primary" target="_blank">
             Join Waiting List
           </a>
         </div>
